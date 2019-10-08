@@ -11,6 +11,7 @@ pre{
 }
 .c{
     display:none;
+
 }
 .boxx{
     display:none;
@@ -22,7 +23,16 @@ pre{
     display:block;
     background-color: red;
     color: white;
-    margin-top: 0;
+    margin-top: -30%;
+    
+     
+   
+}
+p.cb{
+    margin:0%;
+    text-align:center;
+    size:-10em;
+
 }
 .cb img{
     display:none;
@@ -63,7 +73,61 @@ tr:nth-of-type(2n+1){
 a{
     color:purple;
 }
+p{
+    text-align:justify;
+    margin-left:3%;
+    margin-right:3%;
 
+}
 
+@media only screen and (max-width:800px){
+    body{
+        background-color:white;
+    }
+}
+.cb{
+    display:block;
+    background-color: red;
+    color: white;
+    margin-top: -30%;
+}
+a{
+    color:purple;
+}
+p{
+    text-align:justify;
+    margin-left:3%;
+    margin-right:3%;
+}
+.cb{
+    display:block;
+    background-color: red;
+    color:white;
+    margin-top: -30%;
+}
+h1{
+    color:white;
+    background-color: red;
+    margin:0;
+    padding-top: 40vh;
+    font-family: freehouse, serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 4em;
+}
+@media only screen and (min-width:800px) and (max-width:1200px){
+    body{
+        background-color:white;
 
-
+}
+h1{
+    color:red;
+    background-color: red;
+    margin:0;
+    padding-top: 40vh;
+    font-family: freehouse, serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 4em;
